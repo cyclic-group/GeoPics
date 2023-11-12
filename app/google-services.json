@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "2317249206",
+    "project_id": "pelagic-pathway-352422",
+    "storage_bucket": "pelagic-pathway-352422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2317249206:android:ad1991282a64c823dd5417",
+        "android_client_info": {
+          "package_name": "com.example.eduucsbcscs184jionghua_chenjionghua_chengeopics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2317249206-91etp58kd32r4s9s7suojv5jpr9n5o4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJt2QDfykimjYhnx3J2QVBqqhm41C72M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2317249206-91etp58kd32r4s9s7suojv5jpr9n5o4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2317249206:android:160bd34545951350dd5417",
+        "android_client_info": {
+          "package_name": "edu.ucsb.cs.cs184.jionghua_chenjionghua_chengeopics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2317249206-91etp58kd32r4s9s7suojv5jpr9n5o4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJt2QDfykimjYhnx3J2QVBqqhm41C72M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2317249206-91etp58kd32r4s9s7suojv5jpr9n5o4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

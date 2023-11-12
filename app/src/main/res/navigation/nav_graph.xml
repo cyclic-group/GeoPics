@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/googleMapFragment">
+
+    <fragment
+        android:id="@+id/googleMapFragment"
+        android:name="com.example.eduucsbcscs184jionghua_chenjionghua_chengeopics.GoogleMapFragment"
+        android:label="fragment_google_map"
+        tools:layout="@layout/fragment_google_map" >
+        <action
+            android:id="@+id/action_googleMapFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_googleMapFragment_to_photoScrollingFragment"
+            app:destination="@id/photoScrollingFragment" />
+        <action
+            android:id="@+id/action_googleMapFragment_to_uploadPhotoFragment"
+            app:destination="@id/uploadPhotoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.eduucsbcscs184jionghua_chenjionghua_chengeopics.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_googleMapFragment"
+            app:destination="@id/googleMapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoScrollingFragment"
+        android:name="com.example.eduucsbcscs184jionghua_chenjionghua_chengeopics.PhotoScrollingFragment"
+        android:label="fragment_photo_scrolling"
+        tools:layout="@layout/fragment_photo_scrolling" />
+    <fragment
+        android:id="@+id/uploadPhotoFragment"
+        android:name="com.example.eduucsbcscs184jionghua_chenjionghua_chengeopics.UploadPhotoFragment"
+        android:label="upload_photo_fragment"
+        tools:layout="@layout/upload_photo_fragment" >
+        <action
+            android:id="@+id/action_uploadPhotoFragment_to_googleMapFragment"
+            app:destination="@id/googleMapFragment" />
+    </fragment>
+</navigation>
