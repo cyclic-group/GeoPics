@@ -1,27 +1,26 @@
-# GeoPics
+# GeoPics 社交地图应用
 
-## App Architecture
-The app runs in one activity which hosts several fragments. The navigation graph can be found in
-/res/navigation directory. Fragment states are saved using associated view models, while persistent
-states are saved under a private local directory.
+欢迎使用 GeoPics，一个基于 Firebase 编程的地图社交应用。GeoPics 提供了地理标记照片拍摄、照片和标题帖子列表以及点赞功能，旨在帮助用户分享和探索地理位置相关的社交媒体内容。
 
-## Google Maps
-Associated code can be found in GoogleMapFragment, GoogleMapViewModel, and fragment_google_map.xml.
-When created, the fragment would initialize a background worker that continuously tracks the position
-of the user and draws the route on the map.
+## 项目目标
 
-## Authentification
-Associated code can be found in LoginFragment, LoginViewModel, and fragment_login.xml. The app uses
-email to identify each user, and each user can only see their own posts.
+GeoPics 的主要目标是实践 Firebase 编程技能，包括用户登录 UI 授权、与 Google Maps API 集成、照片拍摄和文件处理、自定义碎片 (Fragments) 以及可能的 RESTful API 使用。
 
-## Photo Uploading
-Associated code can be found in UploadPhotoFragment, UploadPhotoViewModel, and upload_photo_fragment.xml.
-Users can either take photo with their cameras or pick photo from the image gallery.
+## 功能特性
 
-# Nearby Place
-Associated code can be found in PlaceListAdapter, PlacesLoader, PhotoScrollingFragment, fragment_photo_scrolling.xml,
-and place_item. When user clicks their position mark, they will be navigated to the recyclerView which lists
-nearby places.
+1. **用户身份验证：**
+   - 使用 Firebase 和其用户登录 UI 来建立用户身份验证，允许记录用户的个体“帖子”到数据库中。
 
-# API Key
-The API key should be stored in local.properties and named GOOGLE_MAPS_API_KEY.
+2. **社交媒体帖子：**
+   - 社交媒体帖子应该至少包含地理标记的照片和简单的标题。
+   - 照片的地理标记表示照片的拍摄位置，可以是照片拍摄的实际位置或用户在地图上标记的位置。
+
+3. **照片拍摄和文件处理：**
+   - 实现照片拍摄和文件处理功能。
+   - 照片可以保存在设备上的文件夹中，而不一定存储在 Firebase 中。
+
+4. **社交媒体帖子地图视图：**
+   - 在地图上显示社交媒体帖子的地理标记。
+   - 提供一个可选的列表视图（Recycler View），按照距离当前位置的最近顺序排序。
+
+5. **
