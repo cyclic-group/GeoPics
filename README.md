@@ -28,4 +28,14 @@ GeoPics 的主要目标是实践 Firebase 编程技能，包括用户登录 UI �
 
 ## 项目演示
 
+![主页](https://github.com/cyclic-group/GeoPics/assets/129709096/df58d678-fc9f-40d3-b201-fe409dd024be)
 
+![登录](https://github.com/cyclic-group/GeoPics/assets/129709096/879468f5-05cb-4b0e-8474-0a3e9a463a8b)
+
+![登录后主页](https://github.com/cyclic-group/GeoPics/assets/129709096/7297cfae-d942-43b1-9bbb-85ba19325d1e)
+
+![照片上传](https://github.com/cyclic-group/GeoPics/assets/129709096/b9a6a64f-73dd-4a4a-b9da-1cfe1443b13b)
+
+![照片显示](https://github.com/cyclic-group/GeoPics/assets/129709096/b39bb773-a381-41ee-8f62-98f75bd3f49f)
+
+![周边](https://github.com/cyclic-group/GeoPics/assets/129709096/e4c6fc2f-d1e2-4de7-8595-78786c6d4f58)
